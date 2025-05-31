@@ -58,7 +58,7 @@ export default async function HomePage() {
   const categoriesWithTopics = await getCategoriesAndTopics();
   return (
     <main className="w-full min-h-screen pt-5 px-2 pb-6 md:pb-8 bg-[linear-gradient(135deg,_#8F87F1_-50%,_#f8fafc_100%)] dark:bg-[linear-gradient(135deg,_#7A70D8_-50%,_#d1d5db_100%)]">
-      <div className="sm:hidden w-full flex justify-center mb-2">
+      <div className="sm:hidden md:block w-full flex justify-center mb-2">
         <a
           href="https://github.com/llaryall/ReactJS-CheatSheet"
           target="_blank"
