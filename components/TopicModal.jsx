@@ -34,11 +34,6 @@ export default function TopicModal({ topicData, onClose }) { // Changed prop fro
           animate="visible"
           exit="exit"
           onClick={(e) => e.stopPropagation()}
-          style={{
-            // maxHeight: '100vh', // Limit modal height to 80% of viewport
-            // display: 'flex', // Handled by Tailwind's `flex` class
-            // flexDirection: 'column', // Handled by Tailwind's `flex-col` class
-          }}
         >
           {loading ? (
             <>

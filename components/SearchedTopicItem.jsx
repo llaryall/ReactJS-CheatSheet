@@ -18,10 +18,11 @@ export default function SearchedTopicItem({ topic, onTopicClick }) {
   return (
     <button
       type="button"
-      onClick={() => onTopicClick(topic.id)}
+      onClick={() => onTopicClick(topic)}
       className="w-full text-left p-3 sm:p-4 mb-3 bg-white dark:bg-gray-900/90 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out border-2 border-transparent hover:border-purple-400 dark:hover:border-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
       style={{ fontFamily: "'Quicksand', 'Segoe UI', sans-serif" }}
     >
+      
       <div className="flex items-center justify-between">
         <div className="flex items-center min-w-0"> {/* Added min-w-0 for better truncation if needed */}
           <span className={`text-xs px-2 py-1 rounded font-bold shadow-sm mr-3 flex-shrink-0 ${getTierBadgeClasses(topic.tier)}`}>
@@ -38,5 +39,6 @@ export default function SearchedTopicItem({ topic, onTopicClick }) {
         )}
       </div>
     </button>
+    
   );
 }
