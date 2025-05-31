@@ -43,13 +43,38 @@ export default function TopicBrowser({ initialCategories }) {
     <>
       {/* Increased bottom margin for more space below the search bar */}
       {/* Changed bottom margin from mb-14 to mb-16 */}
-      <div className="mb-16 px-4 md:px-0">
+      <div className="mb-16 px-2 sm:px-4 md:px-0 flex justify-center">
         <input
           type="text"
           placeholder="Search topics..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="p-3 border border-gray-300 dark:border-gray-700/50 rounded-lg w-full max-w-xl mx-auto block bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none shadow-[0_8px_20px_rgba(127,90,240,0.12)] focus:shadow-[0_10px_25px_rgba(127,90,240,0.2)] dark:shadow-[0_8px_20px_rgba(127,90,240,0.08)] dark:focus:shadow-[0_10px_25px_rgba(127,90,240,0.15)] transition-all duration-200"
+          className="
+            w-full
+            max-w-xs
+            sm:max-w-md
+            md:max-w-xl
+            lg:max-w-2xl
+            px-3 py-2
+            sm:px-5 sm:py-3
+            rounded-2xl
+            bg-white/80
+            dark:bg-gray-900/80
+            border border-gray-200 dark:border-gray-700
+            shadow-lg
+            focus:outline-none
+            focus:ring-2 focus:ring-purple-400 dark:focus:ring-purple-500
+            transition-all
+            duration-200
+            text-sm sm:text-base
+            placeholder-gray-400 dark:placeholder-gray-500
+            backdrop-blur
+            font-semibold
+            "
+          style={{
+            fontFamily: "'Quicksand', 'Segoe UI', sans-serif",
+            letterSpacing: "0.01em"
+          }}
         />
       </div>
 

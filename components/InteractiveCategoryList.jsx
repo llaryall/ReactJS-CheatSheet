@@ -173,11 +173,7 @@ function CategoryItem({ category, isOpen, onToggle, onTopicSelect }) {
               </p>
             ) : (
               <>
-                {/* For the topic list items, the framer-motion variants for enter/exit/center
-                    use position: "absolute". This means they won't push each other during their own
-                    slide animation, which is typical for item carousels. The overall motion.div
-                    container for the dropdown will still occupy space and push content below the card.
-                */}
+                
                 {topicsToShow.map((topic) => (
                   <button
                     type="button"

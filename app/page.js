@@ -59,32 +59,62 @@ async function getCategoriesAndTopics() {
 export default async function HomePage() {
   const categoriesWithTopics = await getCategoriesAndTopics();
   return (
-    <main className="w-full min-h-screen pt-5 px-4 pb-6 md:pb-8 bg-[linear-gradient(135deg,_#8F87F1_-50%,_#f8fafc_100%)] dark:bg-[linear-gradient(135deg,_#7A70D8_-50%,_#d1d5db_100%)]">
-      {" "}
-      {/* Adjusted top padding of main */}
-      {/* Combined Header Block for Title and Tier Legend - Set top margin to 0 as main has pt-5 */}
-      <div className="mt-0 mb-6 md:mb-8 bg-white/10 dark:bg-slate-800/20 backdrop-blur-md rounded-xl p-4 md:p-6 max-w-3xl mx-auto shadow-lg text-center">
-        <h1 className="text-3xl sm:text-4xl font-bold text-[#3D3D3D] dark:text-gray-100 mb-4 md:mb-6">
-          ReactJS Cheatsheet
-        </h1>
-        {/* Tier Legend */}
-        <p className="text-sm sm:text-md text-[#3D3D3D]/80 dark:text-gray-300/90 flex flex-col sm:flex-row items-center justify-center sm:items-end gap-3 sm:gap-6 md:gap-8">
-          <span className="font-semibold text-center sm:text-left">
-            <span className="text-green-600 dark:text-green-400">
-              🟢 Beginner{" "}
+    <main className="w-full min-h-screen pt-5 px-2 pb-6 md:pb-8 bg-[linear-gradient(135deg,_#8F87F1_-50%,_#f8fafc_100%)] dark:bg-[linear-gradient(135deg,_#7A70D8_-50%,_#d1d5db_100%)]">
+      {/* GitHub Icon: fixed top left on desktop, above header on mobile */}
+      <div className="block sm:hidden w-full flex justify-center mb-2">
+        <a
+          href="https://github.com/llaryall/ReactJS-CheatSheet"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub Profile"
+        >
+          <img
+            src="/github.svg"
+            alt="GitHub"
+            className="h-8 w-8 hover:scale-110 transition-transform"
+            style={{ minWidth: 24, minHeight: 24 }}
+          />
+        </a>
+      </div>
+      <a
+        href="https://github.com/llaryall/ReactJS-CheatSheet"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub Profile"
+        className="hidden sm:block fixed top-4 left-4 z-20"
+      >
+        <img
+          src="/github.svg"
+          alt="GitHub"
+          className="h-8 w-8 sm:h-7 sm:w-7 hover:scale-110 transition-transform"
+          style={{ minWidth: 24, minHeight: 24 }}
+        />
+      </a>
+      {/* Responsive centered header container */}
+      <div className="w-full flex justify-center">
+        <div className="w-full max-w-sm sm:max-w-md md:max-w-xl lg:max-w-2xl xl:max-w-3xl bg-white/10 dark:bg-slate-800/20 backdrop-blur-md rounded-xl p-3 sm:p-4 md:p-6 shadow-lg flex flex-col items-center mt-2 mb-6 md:mb-8">
+          <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-[#3D3D3D] dark:text-gray-100 mb-2 md:mb-4 text-center leading-tight truncate">
+            ReactJS Cheatsheet
+          </h1>
+          {/* Tier Legend: always in a row */}
+          <p className="text-xs sm:text-sm md:text-md text-[#3D3D3D]/80 dark:text-gray-300/90 flex flex-row flex-wrap items-center justify-center gap-4 md:gap-8">
+            <span className="font-semibold text-center sm:text-left">
+              <span className="text-green-600 dark:text-green-400">
+                🟢 Beginner{" "}
+              </span>
             </span>
-          </span>
-          <span className="font-semibold text-center sm:text-left">
-            <span className="text-blue-600 dark:text-blue-400">
-              🔵 Common Use{" "}
+            <span className="font-semibold text-center sm:text-left">
+              <span className="text-blue-600 dark:text-blue-400">
+                🔵 Common Use{" "}
+              </span>
             </span>
-          </span>
-          <span className="font-semibold text-center sm:text-left">
-            <span className="text-purple-600 dark:text-purple-400">
-              🟣 Advanced{" "}
+            <span className="font-semibold text-center sm:text-left">
+              <span className="text-purple-600 dark:text-purple-400">
+                🟣 Advanced{" "}
+              </span>
             </span>
-          </span>
-        </p>
+          </p>
+        </div>
       </div>
       {/* Render the TopicBrowser client component and pass the fetched data */}
       <TopicBrowser initialCategories={categoriesWithTopics} />
