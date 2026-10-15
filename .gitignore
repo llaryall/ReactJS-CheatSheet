@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# PocketBase SQLite transient files
+/pb_data/*.db-shm
+/pb_data/*.db-wal
