@@ -1,19 +1,42 @@
 {
+  "type": "module",
   "dependencies": {
+    "@payloadcms/db-postgres": "^3.87.0",
+    "@payloadcms/next": "^3.87.0",
+    "@payloadcms/richtext-lexical": "^3.87.0",
     "@tailwindcss/postcss": "^4.1.7",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/jsdom": "^30.0.0",
+    "@xyflow/react": "^12.12.0",
+    "canvas-confetti": "^1.9.4",
     "framer-motion": "^12.14.0",
+    "graphql": "^16.8.1",
     "html-react-parser": "^5.2.5",
+    "jsdom": "^29.1.1",
+    "lucide-react": "^1.55.0",
     "next": "^15.3.2",
+    "payload": "^3.87.0",
     "pocketbase": "^0.26.0",
     "postcss": "^8.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-syntax-highlighter": "^15.6.1",
+    "sharp": "^0.35.3",
     "tailwindcss": "^4.1.7"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next dev",
+    "build": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next build",
+    "start": "next start",
+    "migrate": "tsx scripts/migrate-from-pocketbase.ts",
+    "migrate:payload": "payload migrate",
+    "generate:types": "payload generate:types",
+    "generate:importmap": "payload generate:importmap"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.0",
+    "tsx": "^4.23.5",
+    "typescript": "^5.7.2"
   }
 }

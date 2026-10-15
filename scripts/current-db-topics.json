@@ -1,0 +1,812 @@
+[
+  {
+    "id": 15,
+    "title": "What is React?",
+    "slug": "what is react?",
+    "tier": "🟢",
+    "display_order": "1",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 24,
+    "title": "JSX: syntax, curly braces, className",
+    "slug": "jsx: syntax, curly braces, className",
+    "tier": "🟢",
+    "display_order": "2",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 25,
+    "title": "Functional Components: syntax and why they're used",
+    "slug": "functional components: syntax and why they're used",
+    "tier": "🟢",
+    "display_order": "2",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 40,
+    "title": "Props: how to pass data (parent to child)",
+    "slug": "props: how to pass data (parent to child)",
+    "tier": "🟢",
+    "display_order": "4",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 49,
+    "title": "props.children and Composition",
+    "slug": "props.children and composition",
+    "tier": "🔵",
+    "display_order": "5",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 59,
+    "title": "Fragments and Self-Closing Tags",
+    "slug": "fragments and self-closing tags",
+    "tier": "🔵",
+    "display_order": "6",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 60,
+    "title": "Default Props",
+    "slug": "default props",
+    "tier": "🔵",
+    "display_order": "6",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 69,
+    "title": "Virtual DOM Basics",
+    "slug": "virtual dOM basics",
+    "tier": "🔵",
+    "display_order": "7",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 75,
+    "title": "Reconciliation Algorithm",
+    "slug": "reconciliation algorithm",
+    "tier": "🟣",
+    "display_order": "8",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 79,
+    "title": "Fiber Architecture",
+    "slug": "fiber architecture",
+    "tier": "🟣",
+    "display_order": "9",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 80,
+    "title": "Keys in Lists",
+    "slug": "keys in lists",
+    "tier": "🟣",
+    "display_order": "10",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 84,
+    "title": "Elements, Components, and Instances",
+    "slug": "elements, components, and instances",
+    "tier": "🟣",
+    "display_order": "11",
+    "category_id": 3,
+    "category_name": "Core Fundamentals & Rendering"
+  },
+  {
+    "id": 6,
+    "title": "What is state in React?",
+    "slug": "what is state in react?",
+    "tier": "🟢",
+    "display_order": "0",
+    "category_id": 4,
+    "category_name": "State Management "
+  },
+  {
+    "id": 16,
+    "title": "Local Component State Concepts",
+    "slug": "local component state concepts",
+    "tier": "🟢",
+    "display_order": "1",
+    "category_id": 4,
+    "category_name": "State Management "
+  },
+  {
+    "id": 34,
+    "title": "Colocation of State",
+    "slug": "colocation of state",
+    "tier": "🔵",
+    "display_order": "3",
+    "category_id": 4,
+    "category_name": "State Management "
+  },
+  {
+    "id": 41,
+    "title": "Form State Basics",
+    "slug": "form state basics",
+    "tier": "🔵",
+    "display_order": "4",
+    "category_id": 4,
+    "category_name": "State Management "
+  },
+  {
+    "id": 50,
+    "title": "Immutable update patterns",
+    "slug": "Immutable update patterns",
+    "tier": "🟣",
+    "display_order": "5",
+    "category_id": 4,
+    "category_name": "State Management "
+  },
+  {
+    "id": 61,
+    "title": "Context API Introduction",
+    "slug": "context API introduction",
+    "tier": "🟣",
+    "display_order": "6",
+    "category_id": 4,
+    "category_name": "State Management "
+  },
+  {
+    "id": 70,
+    "title": "useState, useReducer, or Lifting State Up",
+    "slug": "useState, useReducer, or lifting state up",
+    "tier": "🟣",
+    "display_order": "7",
+    "category_id": 4,
+    "category_name": "State Management "
+  },
+  {
+    "id": 7,
+    "title": "Lifecycle Phases",
+    "slug": "lifecycle phases",
+    "tier": "🟢",
+    "display_order": "0",
+    "category_id": 5,
+    "category_name": "Lifecycle & Side Effects"
+  },
+  {
+    "id": 17,
+    "title": "What are Side Effects? ",
+    "slug": "what are side effects? ",
+    "tier": "🟢",
+    "display_order": "1",
+    "category_id": 5,
+    "category_name": "Lifecycle & Side Effects"
+  },
+  {
+    "id": 27,
+    "title": "Cleanup in Effects",
+    "slug": "cleanup in effects",
+    "tier": "🔵",
+    "display_order": "2",
+    "category_id": 5,
+    "category_name": "Lifecycle & Side Effects"
+  },
+  {
+    "id": 35,
+    "title": "Effects After Render",
+    "slug": "effects after render",
+    "tier": "🔵",
+    "display_order": "3",
+    "category_id": 5,
+    "category_name": "Lifecycle & Side Effects"
+  },
+  {
+    "id": 42,
+    "title": "Async Effects and Race Conditions",
+    "slug": "async effects and race conditions",
+    "tier": "🟣",
+    "display_order": "4",
+    "category_id": 5,
+    "category_name": "Lifecycle & Side Effects"
+  },
+  {
+    "id": 51,
+    "title": "Execution Timing and Batching",
+    "slug": "execution timing and batching",
+    "tier": "🟣",
+    "display_order": "5",
+    "category_id": 5,
+    "category_name": "Lifecycle & Side Effects"
+  },
+  {
+    "id": 3,
+    "title": "useReducer",
+    "slug": "usereducer",
+    "tier": "🔵",
+    "display_order": "-4",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 5,
+    "title": "What are Hooks?",
+    "slug": "what are hooks?",
+    "tier": "🟢",
+    "display_order": "-1",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 8,
+    "title": "useContext",
+    "slug": "usecontext",
+    "tier": "🔵",
+    "display_order": "0",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 18,
+    "title": "Rules of Hooks",
+    "slug": "rules of hooks",
+    "tier": "🟢",
+    "display_order": "1",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 19,
+    "title": "useState",
+    "slug": "usestate",
+    "tier": "🟢",
+    "display_order": "1",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 28,
+    "title": "use",
+    "slug": "use",
+    "tier": "🟢",
+    "display_order": "2",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 43,
+    "title": "useEffect",
+    "slug": "useEffect",
+    "tier": "🟢",
+    "display_order": "4",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 44,
+    "title": "useId",
+    "slug": "useid",
+    "tier": "🟢",
+    "display_order": "4",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 52,
+    "title": "useRef",
+    "slug": "useref",
+    "tier": "🔵",
+    "display_order": "5",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 62,
+    "title": "useCallback, useMemo",
+    "slug": "usecallback, usememo",
+    "tier": "🔵",
+    "display_order": "6",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 63,
+    "title": "useActionState",
+    "slug": "useactionstate",
+    "tier": "🟢",
+    "display_order": "6",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 71,
+    "title": "useOptimistic",
+    "slug": "useoptimistic",
+    "tier": "🟢",
+    "display_order": "7",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 76,
+    "title": "useSyncExternalStore",
+    "slug": "usesyncexternalstore",
+    "tier": "🔵",
+    "display_order": "8",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 77,
+    "title": "useImperativeHandle ",
+    "slug": "useImperativehandle ",
+    "tier": "🟣",
+    "display_order": "8",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 81,
+    "title": "useLayoutEffect",
+    "slug": "uselayoutffect ",
+    "tier": "🟣",
+    "display_order": "10",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 85,
+    "title": "useDebugValue ",
+    "slug": "usedebugvalue ",
+    "tier": "🟣",
+    "display_order": "11",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 87,
+    "title": "Creating Custom Hooks ",
+    "slug": "creating custom hooks ",
+    "tier": "🟣",
+    "display_order": "12",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 90,
+    "title": "useTransition, useDeferredValue ",
+    "slug": "usetransition, usedeferredvalue ",
+    "tier": "🟣",
+    "display_order": "13",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 91,
+    "title": "useFormState ",
+    "slug": "useformstate ",
+    "tier": "🟣",
+    "display_order": "14",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 92,
+    "title": "useFormStatus",
+    "slug": "useformstatus",
+    "tier": "🟣",
+    "display_order": "15",
+    "category_id": 6,
+    "category_name": "Hooks (Core + Library Hooks)"
+  },
+  {
+    "id": 4,
+    "title": "Component Composition",
+    "slug": "component composition",
+    "tier": "🔵",
+    "display_order": "-2",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 9,
+    "title": " One-Way Data Flow",
+    "slug": " One-way data flow",
+    "tier": "🟢",
+    "display_order": "0",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 20,
+    "title": " Props (Properties)",
+    "slug": " props (properties)",
+    "tier": "🟢",
+    "display_order": "1",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 29,
+    "title": " State vs Props",
+    "slug": " state vs props",
+    "tier": "🟢",
+    "display_order": "2",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 36,
+    "title": "Event Handling",
+    "slug": "event handling",
+    "tier": "🟢",
+    "display_order": "3",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 45,
+    "title": "Conditional Rendering",
+    "slug": "conditional rendering",
+    "tier": "🔵",
+    "display_order": "4",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 53,
+    "title": "Rendering Lists with Keys",
+    "slug": "rendering lists with keys",
+    "tier": "🔵",
+    "display_order": "5",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 64,
+    "title": "Controlled Forms",
+    "slug": "controlled forms",
+    "tier": "🔵",
+    "display_order": "6",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 65,
+    "title": "Render Props",
+    "slug": "render props ",
+    "tier": "🟣",
+    "display_order": "6",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 26,
+    "title": "Lifting State Up",
+    "slug": "lifting state up",
+    "tier": "🔵",
+    "display_order": "8",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 82,
+    "title": "HOCs (Higher Order Components)",
+    "slug": "HOCs (higher order components)",
+    "tier": "🟣",
+    "display_order": "10",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 86,
+    "title": "Advanced Form Validation",
+    "slug": "advanced form validation",
+    "tier": "🟣",
+    "display_order": "11",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 88,
+    "title": "Data Fetching Patterns",
+    "slug": "data fetching patterns",
+    "tier": "🟣",
+    "display_order": "12",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 89,
+    "title": "Server Actions (React 19)",
+    "slug": "server actions (react 19)",
+    "tier": "🟣",
+    "display_order": "12",
+    "category_id": 7,
+    "category_name": "Data Flow & Patterns"
+  },
+  {
+    "id": 10,
+    "title": "What is Client-Side Routing?",
+    "slug": "what is client-side routing?",
+    "tier": "🟢",
+    "display_order": "0",
+    "category_id": 8,
+    "category_name": "Routing & Navigation"
+  },
+  {
+    "id": 11,
+    "title": "createBrowserRouter",
+    "slug": "createbrowserrouter",
+    "tier": "🟢",
+    "display_order": "0",
+    "category_id": 8,
+    "category_name": "Routing & Navigation"
+  },
+  {
+    "id": 30,
+    "title": "Routes, Route, Link",
+    "slug": "routes, route, link",
+    "tier": "🟢",
+    "display_order": "2",
+    "category_id": 8,
+    "category_name": "Routing & Navigation"
+  },
+  {
+    "id": 54,
+    "title": "Nested Routes (<Outlet />)",
+    "slug": "Nested Routes (<Outlet />)",
+    "tier": "🔵",
+    "display_order": "5",
+    "category_id": 8,
+    "category_name": "Routing & Navigation"
+  },
+  {
+    "id": 55,
+    "title": "Dynamic Routes (:id)",
+    "slug": "dynamic routes (:id)",
+    "tier": "🔵",
+    "display_order": "5",
+    "category_id": 8,
+    "category_name": "Routing & Navigation"
+  },
+  {
+    "id": 56,
+    "title": " Protected Routes",
+    "slug": " protected routes",
+    "tier": "🟣",
+    "display_order": "5",
+    "category_id": 8,
+    "category_name": "Routing & Navigation"
+  },
+  {
+    "id": 66,
+    "title": "useRoutes Config",
+    "slug": "useRoutes config",
+    "tier": "🟣",
+    "display_order": "6",
+    "category_id": 8,
+    "category_name": "Routing & Navigation"
+  },
+  {
+    "id": 72,
+    "title": "Code-Splitting",
+    "slug": "code-splitting",
+    "tier": "🟣",
+    "display_order": "7",
+    "category_id": 8,
+    "category_name": "Routing & Navigation"
+  },
+  {
+    "id": 73,
+    "title": " Error Boundaries with errorElement",
+    "slug": " Error boundaries with errorElement",
+    "tier": "🟣",
+    "display_order": "7",
+    "category_id": 8,
+    "category_name": "Routing & Navigation"
+  },
+  {
+    "id": 78,
+    "title": "Scroll Restoration",
+    "slug": "scroll restoration",
+    "tier": "🟣",
+    "display_order": "8",
+    "category_id": 8,
+    "category_name": "Routing & Navigation"
+  },
+  {
+    "id": 83,
+    "title": "Route Loaders + Actions (React Router 6.4+)",
+    "slug": "Route Loaders + actions (React Router 6.4+)",
+    "tier": "🟣",
+    "display_order": "10",
+    "category_id": 8,
+    "category_name": "Routing & Navigation"
+  },
+  {
+    "id": 12,
+    "title": "Key Prop Importance",
+    "slug": "Key Prop importance",
+    "tier": "🟢",
+    "display_order": "0",
+    "category_id": 9,
+    "category_name": "Performance Optimization"
+  },
+  {
+    "id": 21,
+    "title": "React.memo()",
+    "slug": "react.memo()",
+    "tier": "🔵",
+    "display_order": "1",
+    "category_id": 9,
+    "category_name": "Performance Optimization"
+  },
+  {
+    "id": 31,
+    "title": "React Profiler",
+    "slug": "react profiler",
+    "tier": "🔵",
+    "display_order": "2",
+    "category_id": 9,
+    "category_name": "Performance Optimization"
+  },
+  {
+    "id": 37,
+    "title": "Code Splitting (React.lazy, Suspense)",
+    "slug": "Code splitting (React.lazy, Suspense)",
+    "tier": "🟣",
+    "display_order": "3",
+    "category_id": 9,
+    "category_name": "Performance Optimization"
+  },
+  {
+    "id": 46,
+    "title": "Virtualization (react-window)",
+    "slug": "virtualization (react-window)",
+    "tier": "🟣",
+    "display_order": "4",
+    "category_id": 9,
+    "category_name": "Performance Optimization"
+  },
+  {
+    "id": 57,
+    "title": "Streaming with Suspense",
+    "slug": "Streaming with suspense",
+    "tier": "🟣",
+    "display_order": "5",
+    "category_id": 9,
+    "category_name": "Performance Optimization"
+  },
+  {
+    "id": 67,
+    "title": "Concurrent Rendering Optimization",
+    "slug": "Concurrent Rendering optimization",
+    "tier": "🟣",
+    "display_order": "6",
+    "category_id": 9,
+    "category_name": "Performance Optimization"
+  },
+  {
+    "id": 13,
+    "title": "createContext & Context.Provider",
+    "slug": "createContext & context.Provider",
+    "tier": "🟢",
+    "display_order": "0",
+    "category_id": 10,
+    "category_name": "Context & State Libraries"
+  },
+  {
+    "id": 22,
+    "title": "use() for Consuming Context (Server Components)",
+    "slug": "use() for Consuming Context (server Components)",
+    "tier": "🟢",
+    "display_order": "1",
+    "category_id": 10,
+    "category_name": "Context & State Libraries"
+  },
+  {
+    "id": 32,
+    "title": "Updating Context",
+    "slug": "Updating context",
+    "tier": "🔵",
+    "display_order": "2",
+    "category_id": 10,
+    "category_name": "Context & State Libraries"
+  },
+  {
+    "id": 38,
+    "title": "Avoiding Prop Drilling",
+    "slug": "Avoiding Prop drilling",
+    "tier": "🔵",
+    "display_order": "3",
+    "category_id": 10,
+    "category_name": "Context & State Libraries"
+  },
+  {
+    "id": 47,
+    "title": "Context Performance Tricks",
+    "slug": "Context Performance tricks",
+    "tier": "🟣",
+    "display_order": "4",
+    "category_id": 10,
+    "category_name": "Context & State Libraries"
+  },
+  {
+    "id": 14,
+    "title": "Error Boundaries",
+    "slug": "Error boundaries",
+    "tier": "🟢",
+    "display_order": "0",
+    "category_id": 11,
+    "category_name": "Specialized React Concepts"
+  },
+  {
+    "id": 23,
+    "title": "Portals",
+    "slug": "portals",
+    "tier": "🟢",
+    "display_order": "1",
+    "category_id": 11,
+    "category_name": "Specialized React Concepts"
+  },
+  {
+    "id": 33,
+    "title": "React.forwardRef",
+    "slug": "React.forwardref",
+    "tier": "🟢",
+    "display_order": "2",
+    "category_id": 11,
+    "category_name": "Specialized React Concepts"
+  },
+  {
+    "id": 39,
+    "title": "Server Components Fundamentals",
+    "slug": "Server Components fundamentals",
+    "tier": "🟢",
+    "display_order": "3",
+    "category_id": 11,
+    "category_name": "Specialized React Concepts"
+  },
+  {
+    "id": 48,
+    "title": "Server Actions Basics",
+    "slug": "Server Actions basics",
+    "tier": "🟢",
+    "display_order": "4",
+    "category_id": 11,
+    "category_name": "Specialized React Concepts"
+  },
+  {
+    "id": 58,
+    "title": "Error Handling",
+    "slug": "Error handling",
+    "tier": "🔵",
+    "display_order": "5",
+    "category_id": 11,
+    "category_name": "Specialized React Concepts"
+  },
+  {
+    "id": 68,
+    "title": "Forms with Server Actions",
+    "slug": "Forms with Server actions",
+    "tier": "🔵",
+    "display_order": "6",
+    "category_id": 11,
+    "category_name": "Specialized React Concepts"
+  },
+  {
+    "id": 74,
+    "title": "Concurrent Rendering & Boundaries ",
+    "slug": "Concurrent Rendering & boundaries ",
+    "tier": "🟣",
+    "display_order": "7",
+    "category_id": 11,
+    "category_name": "Specialized React Concepts"
+  }
+]

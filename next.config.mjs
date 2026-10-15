@@ -1,9 +1,13 @@
+import { withPayload } from '@payloadcms/next/withPayload'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
     images: {
-        unoptimized: true, // Disable Next.js image optimization
+        unoptimized: true,
     },
 }
 
-export default nextConfig;
+export default withPayload(nextConfig)
